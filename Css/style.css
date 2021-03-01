@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.flex-box {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.brand {
+    width: 20%;
+}
+.brand img {
+    width: 33%;
+    /* background-color: white; */
+    border: 3px solid white; 
+    border-radius: 30px;
+    background-color:yellow;
+}
+.navbar { 
+    position: sticky;
+    top: 0;
+    /* cursor: pointer; */
+}
+.nav-list {
+    width: 70%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 18px 0;
+}
+
+.nav-list li {
+    margin: 0 5px; 
+    list-style: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #c8c8c8;
+    cursor: pointer;
+    font-size: 21px;
+    padding: 26px 30px;
+    width: 300px;
+}
+.nav-list li a:hover {
+    color:white;
+}
+
+.right-nav {
+    width:30%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 9px 0;
+}
+#search {
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 200px;
+    margin:10px;
+}
+
+.btn {
+    margin: 4px 8px;
+    width: 20%;
+    font-size:26px;
+    padding: 12px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color:white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color:white;
+    color: black;
+}
+.btn-sm {
+    width: 120px;
+    font-size:20px;
+    padding: 5px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color:white;
+    border-radius: 8px;
+    /* vertical-align: middle; */
+}
+.full-width {
+    font-weight: 60
+    0;
+    width: 100%;
+}
+.btn-primary {
+    color:white;
+    border: none;
+    background-color:royalblue;
+}
+.btn-primary:hover {
+    background-color:rgb(255, 235, 56);
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(/Images/background2.jfif);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.first-section {
+    height: 100vh;
+}
+.box-main {
+    color: white;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 220px;
+    /* height: 80%; */
+}
+.first-half {
+    width: 80%;
+    /* display: flex; */
+    align-items: unset;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 20px;
+}
+.second-half {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-half img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    /* margin: 10px auto; */
+    border: 5px solid white;
+    border-radius: 120px;
+    background-color: yellow;
+}
+.text-big {
+    font-size: 48px;
+    color: rgb(220, 230, 90)
+}
+.text-big span{
+    font-size: 48px;
+    color: rgb(255, 0, 0)
+}
+
+.text-small {
+    font-size: 22px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 60%;
+}
+
+.section-article {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+.first-article {
+    padding: 0 90px;
+}
+
+.thumbnail img {
+    width: 260px;
+    height: 260px;
+    margin-top: 85px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.section-head {
+    font-size: 40px;
+}
+.section-subtag {
+    font-size: 18px;
+}
+
+.left {
+    flex-direction: row-reverse;
+}
+.container {
+    background-color:#f1f1f1;
+}
+.contact {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+.form .form-input {
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 5px 0;
+}
+.contact-heading {
+    text-align: center;
+    font-size: 48px;
+    padding: 38px 0; 
+}
+.form label {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.fi-space {
+    margin: 8px 0;
+}
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+@media only screen and (max-width: px) {}
+
+
